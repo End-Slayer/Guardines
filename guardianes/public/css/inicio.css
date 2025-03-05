@@ -1,0 +1,65 @@
+.card-container {
+    display: flex; /* Usar flexbox para alinear las tarjetas horizontalmente */
+    gap: 80px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+    flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan si no hay suficiente espacio */
+}
+
+.card {
+    width: 350px; /* Ancho de la tarjeta */
+    height: 350px; /* Altura de la tarjeta */
+    background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    overflow: hidden; /* Para asegurarte de que el contenido no sobresalga */
+}
+
+.card2 {
+    width: 100%; /* Para que ocupe todo el ancho de .card */
+    height: 100%; /* Para que ocupe todo el alto de .card */
+    background-color: #000000;
+    border-radius: 20px; /* Asignar un valor aquí */
+    transition: all .2s;
+    display: flex; /* Para centrar la imagen */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.card2 img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+    height: 100%; /* Asegura que la imagen ocupe todo el alto */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    border-radius: 20px; /* Esquinas redondeadas */
+}
+
+.card2:hover {
+    transform: scale(0.98);
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.30);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente si es necesario */
+}
+
+.contenedor h1 {
+    text-align: center; /* Alinea el texto al centro */
+    margin: 0 90px; /* Espaciado entre los títulos */
+    max-width: 250px; /* Ajusta el ancho máximo según sea necesario */
+    line-height: 1.2; /* Ajusta la altura de línea */
+    max-height: 2.4em; /* Limita la altura a dos líneas */
+    overflow: hidden; /* Oculta el texto que excede el límite */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+    font-size: 20px; /* Ajusta el tamaño de la fuente según sea necesario */
+    color: #ffff;
+}
+
+.titulo-centrado {
+    text-align: center; /* Centra el texto */
+    font-size: 1.5em; /* Tamaño de fuente */
+    color: #ffffff; /* Color del texto */
+}
