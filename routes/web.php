@@ -7,7 +7,7 @@ use App\Http\Controllers\Auth\LoginController;
 Route::resource('users', UserController::class);
 
 
-Route::get('/', function () {
+Route::get('/iniciarsesion', function () {
     return view('iniciarsesion');
 })->name('iniciarsesion');
 
