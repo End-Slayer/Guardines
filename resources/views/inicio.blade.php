@@ -28,8 +28,6 @@
     
 </div>
 <div class="contenedor">
-    <h1>Autenticación de dos factores (2FA)</h1>
-    <h1>Cuidado con los correos electronicos y enlaces</h1>
 </div>
 @endsection
 

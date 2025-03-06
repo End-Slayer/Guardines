@@ -133,3 +133,17 @@
 .c-button {
     margin: 0 30px; /* Espacio entre los botones */
 }
+
+@media (max-width: 768px) {
+    .c-button {
+        margin: 0 15px; /* Reduce el margen entre botones */
+        font-size: 14px; /* Ajusta el tamaño de la fuente */
+    }
+}
+
+@media (max-width: 480px) {
+    .c-button {
+        padding: 0.7em 1.2em; /* Ajusta el padding de los botones */
+        font-size: 12
+        }
+}
